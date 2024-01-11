@@ -1,5 +1,5 @@
 # Cinemabot
-A simple Telegram chatbot that allows you to get information about movies and find movies based on user preferences. It was created using the unofficial Kinopoisk API.
+The telegram chatbot that provides information about movies and helps users find movies based on their preferences. It was created using the unofficial Kinopoisk API.
 
 ## Example
 <p align="center">
