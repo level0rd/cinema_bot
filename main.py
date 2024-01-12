@@ -84,7 +84,7 @@ def talk(message):
 
             dialog_state.menu = ''
 
-        elif dialog_state.menu == 'Жанр' and message.text in ['Комедия', 'Боевик', 'Триллер', 'Хоррор']:
+        elif dialog_state.menu == 'Жанр' and message.text in ['😂Комедия', '💥Боевик', '🔪Триллер', '🎃Хоррор']:
             dialog_state.genre = message.text.lower()
             bot.send_message(message.chat.id, "Позднее какого года вышел фильм?",
                              reply_markup=types.ReplyKeyboardRemove())
